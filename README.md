@@ -5,7 +5,7 @@ Angels Rest is an app for an animal sanctuary local to Cincinnati.
 
 It allows users to view the sanctuary's cats and dogs that are available for adoption, view the Facebook page, make charitable donations in-app via PayPal and Stayclassy, sign up for the monthly newsletter, and contact the sancutary with a phone call or email.
 
-![Alt text](http://i.imgur.com/lgrPFGu.png "Animals Tab")   
+![Alt text](http://i.imgur.com/lgrPFGu.png "Animals Tab") 
 ![Alt text](http://i.imgur.com/4gZf9fe.png "Details Page")
 
 
