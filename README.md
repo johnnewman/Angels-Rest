@@ -8,6 +8,10 @@ Angels Rest is an app for an animal sanctuary local to Cincinnati.
 - Parse SDK (for push notifications)
 - PayPal SDK (in-app donations)
 - ConstantContact API (email newsletter enrollment)
+- AFNetworking
+- MBProgressHUD
+- DDPageControl
+- FPPopover
 
 ###Dependencies
 This project uses CocoaPods for dependency management, so ensure CocoaPods is installed/up-to-date and run:
