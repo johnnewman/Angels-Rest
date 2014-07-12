@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52029C8F1970D88A006F0136 /* ARSConstantContactSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52029C8E1970D88A006F0136 /* ARSConstantContactSessionManager.m */; };
+		52029C931970D9B1006F0136 /* ARSConstantContactCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 52029C921970D9B1006F0136 /* ARSConstantContactCommunicator.m */; };
+		52029C9B1970F295006F0136 /* ARSAnimalDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52029C9A1970F295006F0136 /* ARSAnimalDetailsViewController.m */; };
+		52029C9F1970F29E006F0136 /* ARSOptionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52029C9D1970F29E006F0136 /* ARSOptionsTableViewController.m */; };
+		52029CA21970F2A3006F0136 /* ARSAnimalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52029CA11970F2A3006F0136 /* ARSAnimalCell.m */; };
+		52029CA51970F2AA006F0136 /* ARSAnimalCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52029CA41970F2AA006F0136 /* ARSAnimalCollectionViewController.m */; };
+		52029CA81970F2C5006F0136 /* ARSSocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52029CA71970F2C5006F0136 /* ARSSocialViewController.m */; };
+		52029CAB1970F33D006F0136 /* ARSPetfinderSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52029CAA1970F33D006F0136 /* ARSPetfinderSessionManager.m */; };
+		52029CAE1970F343006F0136 /* ARSPetfinderCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 52029CAD1970F343006F0136 /* ARSPetfinderCommunicator.m */; };
+		52029CBB1970F495006F0136 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 52029CB41970F495006F0136 /* Animal.m */; };
+		52029CBC1970F495006F0136 /* AnimalModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52029CB51970F495006F0136 /* AnimalModel.xcdatamodeld */; };
+		52029CBD1970F495006F0136 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 52029CB81970F495006F0136 /* Cat.m */; };
+		52029CBE1970F495006F0136 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 52029CBA1970F495006F0136 /* Dog.m */; };
+		52029CC11970F4A4006F0136 /* ARSAboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52029CC01970F4A4006F0136 /* ARSAboutUsViewController.m */; };
+		52029CC41970F4AA006F0136 /* ARSConstantContactTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52029CC31970F4AA006F0136 /* ARSConstantContactTableViewController.m */; };
+		52029CC81970F4B2006F0136 /* ARSConstantContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52029CC61970F4B2006F0136 /* ARSConstantContactCell.m */; };
+		52029CCC1970F4B8006F0136 /* ARSStatePickerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52029CCB1970F4B8006F0136 /* ARSStatePickerTableViewController.m */; };
+		52029CD91970F581006F0136 /* JNLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 52029CD81970F581006F0136 /* JNLogger.m */; };
+		52029CDC1970F587006F0136 /* JNImagePagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52029CDB1970F587006F0136 /* JNImagePagerView.m */; };
+		52029CDF1970F58E006F0136 /* JNImageCacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 52029CDE1970F58E006F0136 /* JNImageCacher.m */; };
+		5211C87B179BA0310007F981 /* ARSDonateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5211C87A179BA0310007F981 /* ARSDonateViewController.m */; };
+		5211C884179BAA5F0007F981 /* ARSStayClassyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5211C883179BAA5F0007F981 /* ARSStayClassyViewController.m */; };
+		527AA2821791C22000858F34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527AA2811791C22000858F34 /* UIKit.framework */; };
+		527AA2841791C22000858F34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527AA2831791C22000858F34 /* Foundation.framework */; };
+		527AA2861791C22000858F34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527AA2851791C22000858F34 /* CoreGraphics.framework */; };
+		527AA28C1791C22000858F34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 527AA28A1791C22000858F34 /* InfoPlist.strings */; };
+		527AA2941791C22000858F34 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 527AA2931791C22000858F34 /* Default.png */; };
+		527AA2961791C22000858F34 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 527AA2951791C22000858F34 /* Default@2x.png */; };
+		527AA2981791C22000858F34 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 527AA2971791C22000858F34 /* Default-568h@2x.png */; };
+		527AA29B1791C22000858F34 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527AA2991791C22000858F34 /* MainStoryboard.storyboard */; };
+		527AA2B11791C67F00858F34 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527AA2B01791C67F00858F34 /* QuartzCore.framework */; };
+		52AC20091971AA7A00ABF48D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AC20081971AA7A00ABF48D /* AppDelegate.m */; };
+		52AC200E1971AA9C00ABF48D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AC200C1971AA9C00ABF48D /* main.m */; };
+		52AC200F1971AA9C00ABF48D /* States.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52AC200D1971AA9C00ABF48D /* States.plist */; };
+		52CEFB1018C2617E007A786F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CEFB0F18C2617E007A786F /* Images.xcassets */; };
+		52DF7361180A4AE000D505E2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DF7360180A4AE000D505E2 /* CoreData.framework */; };
+		F0FBBCD8936E45F7918BC061 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FE524441A349B9852CC9CC /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52029C8D1970D88A006F0136 /* ARSConstantContactSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARSConstantContactSessionManager.h; path = Networking/ConstantContact/RequestOperationManager/ARSConstantContactSessionManager.h; sourceTree = "<group>"; };
+		52029C8E1970D88A006F0136 /* ARSConstantContactSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARSConstantContactSessionManager.m; path = Networking/ConstantContact/RequestOperationManager/ARSConstantContactSessionManager.m; sourceTree = "<group>"; };
+		52029C911970D9B1006F0136 /* ARSConstantContactCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARSConstantContactCommunicator.h; path = Networking/ConstantContact/APICommunicator/ARSConstantContactCommunicator.h; sourceTree = "<group>"; };
+		52029C921970D9B1006F0136 /* ARSConstantContactCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARSConstantContactCommunicator.m; path = Networking/ConstantContact/APICommunicator/ARSConstantContactCommunicator.m; sourceTree = "<group>"; };
+		52029C991970F295006F0136 /* ARSAnimalDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARSAnimalDetailsViewController.h; path = AnimalsTab/DetailsView/ARSAnimalDetailsViewController.h; sourceTree = "<group>"; };
+		52029C9A1970F295006F0136 /* ARSAnimalDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARSAnimalDetailsViewController.m; path = AnimalsTab/DetailsView/ARSAnimalDetailsViewController.m; sourceTree = "<group>"; };
+		52029C9C1970F29E006F0136 /* ARSOptionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARSOptionsTableViewController.h; path = AnimalsTab/OptionsTableView/ARSOptionsTableViewController.h; sourceTree = "<group>"; };
+		52029C9D1970F29E006F0136 /* ARSOptionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARSOptionsTableViewController.m; path = AnimalsTab/OptionsTableView/ARSOptionsTableViewController.m; sourceTree = "<group>"; };
+		52029C9E1970F29E006F0136 /* ARSOptionsTableViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARSOptionsTableViewControllerDelegate.h; path = AnimalsTab/OptionsTableView/ARSOptionsTableViewControllerDelegate.h; sourceTree = "<group>"; };
+		52029CA01970F2A3006F0136 /* ARSAnimalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARSAnimalCell.h; path = AnimalsTab/Cell/ARSAnimalCell.h; sourceTree = "<group>"; };
+		52029CA11970F2A3006F0136 /* ARSAnimalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARSAnimalCell.m; path = AnimalsTab/Cell/ARSAnimalCell.m; sourceTree = "<group>"; };
+		52029CA31970F2AA006F0136 /* ARSAnimalCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARSAnimalCollectionViewController.h; path = AnimalsTab/ARSAnimalCollectionViewController.h; sourceTree = "<group>"; };
+		52029CA41970F2AA006F0136 /* ARSAnimalCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARSAnimalCollectionViewController.m; path = AnimalsTab/ARSAnimalCollectionViewController.m; sourceTree = "<group>"; };
+		52029CA61970F2C5006F0136 /* ARSSocialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARSSocialViewController.h; path = FacebookTab/ARSSocialViewController.h; sourceTree = "<group>"; };
+		52029CA71970F2C5006F0136 /* ARSSocialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARSSocialViewController.m; path = FacebookTab/ARSSocialViewController.m; sourceTree = "<group>"; };
+		52029CA91970F33D006F0136 /* ARSPetfinderSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARSPetfinderSessionManager.h; path = Networking/Petfinder/SessionManager/ARSPetfinderSessionManager.h; sourceTree = "<group>"; };
+		52029CAA1970F33D006F0136 /* ARSPetfinderSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARSPetfinderSessionManager.m; path = Networking/Petfinder/SessionManager/ARSPetfinderSessionManager.m; sourceTree = "<group>"; };
+		52029CAC1970F343006F0136 /* ARSPetfinderCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARSPetfinderCommunicator.h; path = Networking/Petfinder/APICommunicator/ARSPetfinderCommunicator.h; sourceTree = "<group>"; };
+		52029CAD1970F343006F0136 /* ARSPetfinderCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARSPetfinderCommunicator.m; path = Networking/Petfinder/APICommunicator/ARSPetfinderCommunicator.m; sourceTree = "<group>"; };
+		52029CB31970F495006F0136 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Animal.h; path = DataModel/Animal.h; sourceTree = "<group>"; };
+		52029CB41970F495006F0136 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Animal.m; path = DataModel/Animal.m; sourceTree = "<group>"; };
+		52029CB61970F495006F0136 /* AnimalModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AnimalModel.xcdatamodel; sourceTree = "<group>"; };
+		52029CB71970F495006F0136 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cat.h; path = DataModel/Cat.h; sourceTree = "<group>"; };
+		52029CB81970F495006F0136 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cat.m; path = DataModel/Cat.m; sourceTree = "<group>"; };
+		52029CB91970F495006F0136 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Dog.h; path = DataModel/Dog.h; sourceTree = "<group>"; };
+		52029CBA1970F495006F0136 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Dog.m; path = DataModel/Dog.m; sourceTree = "<group>"; };
+		52029CBF1970F4A4006F0136 /* ARSAboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARSAboutUsViewController.h; path = AboutUs/ARSAboutUsViewController.h; sourceTree = "<group>"; };
+		52029CC01970F4A4006F0136 /* ARSAboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARSAboutUsViewController.m; path = AboutUs/ARSAboutUsViewController.m; sourceTree = "<group>"; };
+		52029CC21970F4AA006F0136 /* ARSConstantContactTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARSConstantContactTableViewController.h; path = "AboutUs/Constant Contact/ARSConstantContactTableViewController.h"; sourceTree = "<group>"; };
+		52029CC31970F4AA006F0136 /* ARSConstantContactTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARSConstantContactTableViewController.m; path = "AboutUs/Constant Contact/ARSConstantContactTableViewController.m"; sourceTree = "<group>"; };
+		52029CC51970F4B2006F0136 /* ARSConstantContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARSConstantContactCell.h; path = "AboutUs/Constant Contact/Cell/ARSConstantContactCell.h"; sourceTree = "<group>"; };
+		52029CC61970F4B2006F0136 /* ARSConstantContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARSConstantContactCell.m; path = "AboutUs/Constant Contact/Cell/ARSConstantContactCell.m"; sourceTree = "<group>"; };
+		52029CC71970F4B2006F0136 /* ARSContactCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARSContactCellDelegate.h; path = "AboutUs/Constant Contact/Cell/ARSContactCellDelegate.h"; sourceTree = "<group>"; };
+		52029CC91970F4B8006F0136 /* ARSStatePickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARSStatePickerDelegate.h; path = "AboutUs/Constant Contact/StatePicker/ARSStatePickerDelegate.h"; sourceTree = "<group>"; };
+		52029CCA1970F4B8006F0136 /* ARSStatePickerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARSStatePickerTableViewController.h; path = "AboutUs/Constant Contact/StatePicker/ARSStatePickerTableViewController.h"; sourceTree = "<group>"; };
+		52029CCB1970F4B8006F0136 /* ARSStatePickerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARSStatePickerTableViewController.m; path = "AboutUs/Constant Contact/StatePicker/ARSStatePickerTableViewController.m"; sourceTree = "<group>"; };
+		52029CD71970F581006F0136 /* JNLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JNLogger.h; path = Util/JNLogger/JNLogger.h; sourceTree = "<group>"; };
+		52029CD81970F581006F0136 /* JNLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JNLogger.m; path = Util/JNLogger/JNLogger.m; sourceTree = "<group>"; };
+		52029CDA1970F587006F0136 /* JNImagePagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JNImagePagerView.h; path = Util/JNImagePager/JNImagePagerView.h; sourceTree = "<group>"; };
+		52029CDB1970F587006F0136 /* JNImagePagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JNImagePagerView.m; path = Util/JNImagePager/JNImagePagerView.m; sourceTree = "<group>"; };
+		52029CDD1970F58E006F0136 /* JNImageCacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JNImageCacher.h; path = Util/JNImageCacher/JNImageCacher.h; sourceTree = "<group>"; };
+		52029CDE1970F58E006F0136 /* JNImageCacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JNImageCacher.m; path = Util/JNImageCacher/JNImageCacher.m; sourceTree = "<group>"; };
+		5211C879179BA0310007F981 /* ARSDonateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARSDonateViewController.h; path = Donate/ARSDonateViewController.h; sourceTree = "<group>"; };
+		5211C87A179BA0310007F981 /* ARSDonateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARSDonateViewController.m; path = Donate/ARSDonateViewController.m; sourceTree = "<group>"; };
+		5211C882179BAA5F0007F981 /* ARSStayClassyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARSStayClassyViewController.h; path = "Donate/Stay Classy/ARSStayClassyViewController.h"; sourceTree = "<group>"; };
+		5211C883179BAA5F0007F981 /* ARSStayClassyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARSStayClassyViewController.m; path = "Donate/Stay Classy/ARSStayClassyViewController.m"; sourceTree = "<group>"; };
+		527AA27E1791C22000858F34 /* Angels Rest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Angels Rest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		527AA2811791C22000858F34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		527AA2831791C22000858F34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		527AA2851791C22000858F34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		527AA28B1791C22000858F34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		527AA2931791C22000858F34 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		527AA2951791C22000858F34 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		527AA2971791C22000858F34 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		527AA29A1791C22000858F34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		527AA2B01791C67F00858F34 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		52AC20071971AA7A00ABF48D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AppDelegate/AppDelegate.h; sourceTree = "<group>"; };
+		52AC20081971AA7A00ABF48D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AppDelegate/AppDelegate.m; sourceTree = "<group>"; };
+		52AC200A1971AA9C00ABF48D /* Angels Rest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Angels Rest-Prefix.pch"; path = "SupportingFiles/Angels Rest-Prefix.pch"; sourceTree = "<group>"; };
+		52AC200B1971AA9C00ABF48D /* Keys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Keys.h; path = SupportingFiles/Keys.h; sourceTree = "<group>"; };
+		52AC200C1971AA9C00ABF48D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SupportingFiles/main.m; sourceTree = "<group>"; };
+		52AC200D1971AA9C00ABF48D /* States.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = States.plist; path = SupportingFiles/States.plist; sourceTree = "<group>"; };
+		52AC20101971AB2D00ABF48D /* Angels Rest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Angels Rest-Info.plist"; path = "SupportingFiles/Angels Rest-Info.plist"; sourceTree = "<group>"; };
+		52CEFB0F18C2617E007A786F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52DF7360180A4AE000D505E2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		53FE524441A349B9852CC9CC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8C7B949D0946E0ADD0651B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		527AA27B1791C22000858F34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DF7361180A4AE000D505E2 /* CoreData.framework in Frameworks */,
+				527AA2B11791C67F00858F34 /* QuartzCore.framework in Frameworks */,
+				527AA2821791C22000858F34 /* UIKit.framework in Frameworks */,
+				527AA2841791C22000858F34 /* Foundation.framework in Frameworks */,
+				527AA2861791C22000858F34 /* CoreGraphics.framework in Frameworks */,
+				F0FBBCD8936E45F7918BC061 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52029C871970D7FC006F0136 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5250E3FA194A9A1800AD2AC8 /* Petfinder */,
+				52029C881970D802006F0136 /* Constant Contact */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		52029C881970D802006F0136 /* Constant Contact */ = {
+			isa = PBXGroup;
+			children = (
+				52029C891970D80C006F0136 /* Request Operation Manager */,
+				52029C901970D993006F0136 /* API Communicator */,
+			);
+			name = "Constant Contact";
+			sourceTree = "<group>";
+		};
+		52029C891970D80C006F0136 /* Request Operation Manager */ = {
+			isa = PBXGroup;
+			children = (
+				52029C8D1970D88A006F0136 /* ARSConstantContactSessionManager.h */,
+				52029C8E1970D88A006F0136 /* ARSConstantContactSessionManager.m */,
+			);
+			name = "Request Operation Manager";
+			sourceTree = "<group>";
+		};
+		52029C901970D993006F0136 /* API Communicator */ = {
+			isa = PBXGroup;
+			children = (
+				52029C911970D9B1006F0136 /* ARSConstantContactCommunicator.h */,
+				52029C921970D9B1006F0136 /* ARSConstantContactCommunicator.m */,
+			);
+			name = "API Communicator";
+			sourceTree = "<group>";
+		};
+		52029C941970F229006F0136 /* State Picker */ = {
+			isa = PBXGroup;
+			children = (
+				52029CCA1970F4B8006F0136 /* ARSStatePickerTableViewController.h */,
+				52029CCB1970F4B8006F0136 /* ARSStatePickerTableViewController.m */,
+				52029CC91970F4B8006F0136 /* ARSStatePickerDelegate.h */,
+			);
+			name = "State Picker";
+			sourceTree = "<group>";
+		};
+		52029CAF1970F351006F0136 /* JNImageCacher */ = {
+			isa = PBXGroup;
+			children = (
+				52029CDD1970F58E006F0136 /* JNImageCacher.h */,
+				52029CDE1970F58E006F0136 /* JNImageCacher.m */,
+			);
+			name = JNImageCacher;
+			sourceTree = "<group>";
+		};
+		52029CCD1970F4EF006F0136 /* JNLogger */ = {
+			isa = PBXGroup;
+			children = (
+				52029CD71970F581006F0136 /* JNLogger.h */,
+				52029CD81970F581006F0136 /* JNLogger.m */,
+			);
+			name = JNLogger;
+			sourceTree = "<group>";
+		};
+		5211C84A179B4B270007F981 /* Constant Contact */ = {
+			isa = PBXGroup;
+			children = (
+				52029CC21970F4AA006F0136 /* ARSConstantContactTableViewController.h */,
+				52029CC31970F4AA006F0136 /* ARSConstantContactTableViewController.m */,
+				5211C84E179B4C570007F981 /* Cell */,
+				52029C941970F229006F0136 /* State Picker */,
+			);
+			name = "Constant Contact";
+			sourceTree = "<group>";
+		};
+		5211C84E179B4C570007F981 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				52029CC51970F4B2006F0136 /* ARSConstantContactCell.h */,
+				52029CC61970F4B2006F0136 /* ARSConstantContactCell.m */,
+				52029CC71970F4B2006F0136 /* ARSContactCellDelegate.h */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		5211C875179B9FF40007F981 /* Donate Tab */ = {
+			isa = PBXGroup;
+			children = (
+				5211C879179BA0310007F981 /* ARSDonateViewController.h */,
+				5211C87A179BA0310007F981 /* ARSDonateViewController.m */,
+				5211C87E179BA99E0007F981 /* StayClassy */,
+			);
+			name = "Donate Tab";
+			sourceTree = "<group>";
+		};
+		5211C87E179BA99E0007F981 /* StayClassy */ = {
+			isa = PBXGroup;
+			children = (
+				5211C882179BAA5F0007F981 /* ARSStayClassyViewController.h */,
+				5211C883179BAA5F0007F981 /* ARSStayClassyViewController.m */,
+			);
+			name = StayClassy;
+			sourceTree = "<group>";
+		};
+		521546DB179E04B40001E719 /* Options View */ = {
+			isa = PBXGroup;
+			children = (
+				52029C9C1970F29E006F0136 /* ARSOptionsTableViewController.h */,
+				52029C9D1970F29E006F0136 /* ARSOptionsTableViewController.m */,
+				52029C9E1970F29E006F0136 /* ARSOptionsTableViewControllerDelegate.h */,
+			);
+			name = "Options View";
+			sourceTree = "<group>";
+		};
+		522DAE7D17935C6800AEA693 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				52AC20071971AA7A00ABF48D /* AppDelegate.h */,
+				52AC20081971AA7A00ABF48D /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		5250E3FA194A9A1800AD2AC8 /* Petfinder */ = {
+			isa = PBXGroup;
+			children = (
+				5250E3FB194A9A2400AD2AC8 /* Session Manager */,
+				5250E3FF194A9BB300AD2AC8 /* API Communicator */,
+			);
+			name = Petfinder;
+			sourceTree = "<group>";
+		};
+		5250E3FB194A9A2400AD2AC8 /* Session Manager */ = {
+			isa = PBXGroup;
+			children = (
+				52029CA91970F33D006F0136 /* ARSPetfinderSessionManager.h */,
+				52029CAA1970F33D006F0136 /* ARSPetfinderSessionManager.m */,
+			);
+			name = "Session Manager";
+			sourceTree = "<group>";
+		};
+		5250E3FF194A9BB300AD2AC8 /* API Communicator */ = {
+			isa = PBXGroup;
+			children = (
+				52029CAC1970F343006F0136 /* ARSPetfinderCommunicator.h */,
+				52029CAD1970F343006F0136 /* ARSPetfinderCommunicator.m */,
+			);
+			name = "API Communicator";
+			sourceTree = "<group>";
+		};
+		526FD9951791C9E2002244A5 /* Animals Tab */ = {
+			isa = PBXGroup;
+			children = (
+				52029CA31970F2AA006F0136 /* ARSAnimalCollectionViewController.h */,
+				52029CA41970F2AA006F0136 /* ARSAnimalCollectionViewController.m */,
+				526FD9991791CF85002244A5 /* Cell */,
+				521546DB179E04B40001E719 /* Options View */,
+				526FD9BB1791EB9F002244A5 /* Details View */,
+			);
+			name = "Animals Tab";
+			sourceTree = "<group>";
+		};
+		526FD9991791CF85002244A5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				52029CA01970F2A3006F0136 /* ARSAnimalCell.h */,
+				52029CA11970F2A3006F0136 /* ARSAnimalCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		526FD99D1791D035002244A5 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				52029CB51970F495006F0136 /* AnimalModel.xcdatamodeld */,
+				52029CB31970F495006F0136 /* Animal.h */,
+				52029CB41970F495006F0136 /* Animal.m */,
+				52029CB71970F495006F0136 /* Cat.h */,
+				52029CB81970F495006F0136 /* Cat.m */,
+				52029CB91970F495006F0136 /* Dog.h */,
+				52029CBA1970F495006F0136 /* Dog.m */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		526FD9A71791D8D4002244A5 /* Facebook Tab */ = {
+			isa = PBXGroup;
+			children = (
+				52029CA61970F2C5006F0136 /* ARSSocialViewController.h */,
+				52029CA71970F2C5006F0136 /* ARSSocialViewController.m */,
+			);
+			name = "Facebook Tab";
+			sourceTree = "<group>";
+		};
+		526FD9BB1791EB9F002244A5 /* Details View */ = {
+			isa = PBXGroup;
+			children = (
+				52029C991970F295006F0136 /* ARSAnimalDetailsViewController.h */,
+				52029C9A1970F295006F0136 /* ARSAnimalDetailsViewController.m */,
+			);
+			name = "Details View";
+			sourceTree = "<group>";
+		};
+		527AA2751791C22000858F34 = {
+			isa = PBXGroup;
+			children = (
+				527AA2871791C22000858F34 /* Angels Rest */,
+				527AA2801791C22000858F34 /* Frameworks */,
+				527AA27F1791C22000858F34 /* Products */,
+				BE8C7B949D0946E0ADD0651B /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		527AA27F1791C22000858F34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				527AA27E1791C22000858F34 /* Angels Rest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		527AA2801791C22000858F34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52DF7360180A4AE000D505E2 /* CoreData.framework */,
+				527AA2B01791C67F00858F34 /* QuartzCore.framework */,
+				527AA2811791C22000858F34 /* UIKit.framework */,
+				527AA2831791C22000858F34 /* Foundation.framework */,
+				527AA2851791C22000858F34 /* CoreGraphics.framework */,
+				53FE524441A349B9852CC9CC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		527AA2871791C22000858F34 /* Angels Rest */ = {
+			isa = PBXGroup;
+			children = (
+				527AA2991791C22000858F34 /* MainStoryboard.storyboard */,
+				522DAE7D17935C6800AEA693 /* Delegate */,
+				529F0747179642FC0062938C /* Tabbed View Controllers */,
+				52029C871970D7FC006F0136 /* Networking */,
+				52BC06DA196CA84400735295 /* Util */,
+				526FD99D1791D035002244A5 /* Data Model */,
+				527AA2881791C22000858F34 /* Supporting Files */,
+				52CEFB0F18C2617E007A786F /* Images.xcassets */,
+			);
+			path = "Angels Rest";
+			sourceTree = "<group>";
+		};
+		527AA2881791C22000858F34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52AC20101971AB2D00ABF48D /* Angels Rest-Info.plist */,
+				527AA28A1791C22000858F34 /* InfoPlist.strings */,
+				52AC200C1971AA9C00ABF48D /* main.m */,
+				52AC200A1971AA9C00ABF48D /* Angels Rest-Prefix.pch */,
+				52AC200B1971AA9C00ABF48D /* Keys.h */,
+				52AC200D1971AA9C00ABF48D /* States.plist */,
+				527AA2931791C22000858F34 /* Default.png */,
+				527AA2951791C22000858F34 /* Default@2x.png */,
+				527AA2971791C22000858F34 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		529F0743179618610062938C /* About Us Tab */ = {
+			isa = PBXGroup;
+			children = (
+				52029CBF1970F4A4006F0136 /* ARSAboutUsViewController.h */,
+				52029CC01970F4A4006F0136 /* ARSAboutUsViewController.m */,
+				5211C84A179B4B270007F981 /* Constant Contact */,
+			);
+			name = "About Us Tab";
+			sourceTree = "<group>";
+		};
+		529F0747179642FC0062938C /* Tabbed View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				526FD9951791C9E2002244A5 /* Animals Tab */,
+				526FD9A71791D8D4002244A5 /* Facebook Tab */,
+				5211C875179B9FF40007F981 /* Donate Tab */,
+				529F0743179618610062938C /* About Us Tab */,
+			);
+			name = "Tabbed View Controllers";
+			sourceTree = "<group>";
+		};
+		52BC06DA196CA84400735295 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				52029CCD1970F4EF006F0136 /* JNLogger */,
+				52029CAF1970F351006F0136 /* JNImageCacher */,
+				52EDB04E196F813F00A120FB /* JNImagePager */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		52EDB04E196F813F00A120FB /* JNImagePager */ = {
+			isa = PBXGroup;
+			children = (
+				52029CDA1970F587006F0136 /* JNImagePagerView.h */,
+				52029CDB1970F587006F0136 /* JNImagePagerView.m */,
+			);
+			name = JNImagePager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		527AA27D1791C22000858F34 /* Angels Rest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527AA2A11791C22000858F34 /* Build configuration list for PBXNativeTarget "Angels Rest" */;
+			buildPhases = (
+				594A2A15D23F4818BC70CDDE /* Check Pods Manifest.lock */,
+				527AA27A1791C22000858F34 /* Sources */,
+				527AA27B1791C22000858F34 /* Frameworks */,
+				527AA27C1791C22000858F34 /* Resources */,
+				064AAC1056F04F9D8D4F35A4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Angels Rest";
+			productName = "Angels Rest";
+			productReference = 527AA27E1791C22000858F34 /* Angels Rest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		527AA2761791C22000858F34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ARS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Fuzzy Development";
+				TargetAttributes = {
+					527AA27D1791C22000858F34 = {
+						DevelopmentTeam = VASERKM3U3;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 527AA2791791C22000858F34 /* Build configuration list for PBXProject "Angels Rest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 527AA2751791C22000858F34;
+			productRefGroup = 527AA27F1791C22000858F34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				527AA27D1791C22000858F34 /* Angels Rest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		527AA27C1791C22000858F34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527AA28C1791C22000858F34 /* InfoPlist.strings in Resources */,
+				527AA2941791C22000858F34 /* Default.png in Resources */,
+				527AA2961791C22000858F34 /* Default@2x.png in Resources */,
+				527AA2981791C22000858F34 /* Default-568h@2x.png in Resources */,
+				527AA29B1791C22000858F34 /* MainStoryboard.storyboard in Resources */,
+				52AC200F1971AA9C00ABF48D /* States.plist in Resources */,
+				52CEFB1018C2617E007A786F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		064AAC1056F04F9D8D4F35A4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		594A2A15D23F4818BC70CDDE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		527AA27A1791C22000858F34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52029CAB1970F33D006F0136 /* ARSPetfinderSessionManager.m in Sources */,
+				52029CCC1970F4B8006F0136 /* ARSStatePickerTableViewController.m in Sources */,
+				52029CDF1970F58E006F0136 /* JNImageCacher.m in Sources */,
+				52029CBC1970F495006F0136 /* AnimalModel.xcdatamodeld in Sources */,
+				52029CC11970F4A4006F0136 /* ARSAboutUsViewController.m in Sources */,
+				52029C9F1970F29E006F0136 /* ARSOptionsTableViewController.m in Sources */,
+				52029CAE1970F343006F0136 /* ARSPetfinderCommunicator.m in Sources */,
+				52029CA81970F2C5006F0136 /* ARSSocialViewController.m in Sources */,
+				52029CDC1970F587006F0136 /* JNImagePagerView.m in Sources */,
+				52029CA21970F2A3006F0136 /* ARSAnimalCell.m in Sources */,
+				52029C8F1970D88A006F0136 /* ARSConstantContactSessionManager.m in Sources */,
+				52029CBD1970F495006F0136 /* Cat.m in Sources */,
+				52029C931970D9B1006F0136 /* ARSConstantContactCommunicator.m in Sources */,
+				52029CC81970F4B2006F0136 /* ARSConstantContactCell.m in Sources */,
+				52029C9B1970F295006F0136 /* ARSAnimalDetailsViewController.m in Sources */,
+				52029CBE1970F495006F0136 /* Dog.m in Sources */,
+				52029CC41970F4AA006F0136 /* ARSConstantContactTableViewController.m in Sources */,
+				52029CD91970F581006F0136 /* JNLogger.m in Sources */,
+				52029CA51970F2AA006F0136 /* ARSAnimalCollectionViewController.m in Sources */,
+				52AC20091971AA7A00ABF48D /* AppDelegate.m in Sources */,
+				52029CBB1970F495006F0136 /* Animal.m in Sources */,
+				5211C87B179BA0310007F981 /* ARSDonateViewController.m in Sources */,
+				52AC200E1971AA9C00ABF48D /* main.m in Sources */,
+				5211C884179BAA5F0007F981 /* ARSStayClassyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		527AA28A1791C22000858F34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527AA28B1791C22000858F34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		527AA2991791C22000858F34 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527AA29A1791C22000858F34 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		527AA29F1791C22000858F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		527AA2A01791C22000858F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		527AA2A21791C22000858F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE8C7B949D0946E0ADD0651B /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)/Angels Rest\"",
+					/Users/john/Documents/FacebookSDK,
+					/Users/john/Downloads,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Angels Rest/SupportingFiles/Angels Rest-Prefix.pch";
+				INFOPLIST_FILE = "Angels Rest/SupportingFiles/Angels Rest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		527AA2A31791C22000858F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE8C7B949D0946E0ADD0651B /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)/Angels Rest\"",
+					/Users/john/Documents/FacebookSDK,
+					/Users/john/Downloads,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Angels Rest/SupportingFiles/Angels Rest-Prefix.pch";
+				INFOPLIST_FILE = "Angels Rest/SupportingFiles/Angels Rest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		527AA2791791C22000858F34 /* Build configuration list for PBXProject "Angels Rest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527AA29F1791C22000858F34 /* Debug */,
+				527AA2A01791C22000858F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527AA2A11791C22000858F34 /* Build configuration list for PBXNativeTarget "Angels Rest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527AA2A21791C22000858F34 /* Debug */,
+				527AA2A31791C22000858F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52029CB51970F495006F0136 /* AnimalModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52029CB61970F495006F0136 /* AnimalModel.xcdatamodel */,
+			);
+			currentVersion = 52029CB61970F495006F0136 /* AnimalModel.xcdatamodel */;
+			name = AnimalModel.xcdatamodeld;
+			path = DataModel/AnimalModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 527AA2761791C22000858F34 /* Project object */;
+}

@@ -1,0 +1,7 @@
+platform :ios, '7.0'
+pod 'Parse-iOS-SDK', '~> 1.2'
+pod 'PayPal-iOS-SDK', '~> 2.1'
+pod 'AFNetworking', '~> 2.2'
+pod 'DDPageControl', '~> 0.1'
+pod 'MBProgressHUD', '~> 0.8'
+pod 'FPPopover', '~> 1.4'

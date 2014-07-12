@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13D65" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Animal" representedClassName="Animal" isAbstract="YES" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="breed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageURLs" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Cat" representedClassName="Cat" parentEntity="Animal" syncable="YES"/>
+    <entity name="Dog" representedClassName="Dog" parentEntity="Animal" syncable="YES"/>
+    <elements>
+        <element name="Animal" positionX="0" positionY="0" width="128" height="148"/>
+        <element name="Dog" positionX="0" positionY="63" width="128" height="43"/>
+        <element name="Cat" positionX="9" positionY="72" width="128" height="43"/>
+    </elements>
+</model>
