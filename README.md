@@ -16,4 +16,6 @@ This project uses CocoaPods for dependency management, so ensure CocoaPods is in
 in the project's root directory (where the podfile is located).
 
 ###Private To Public Migration
-In moving the project to a public repository, Parse, PayPal, and ConstantContact API keys were removed from the project.  All keys are located in Keys.h.  The phone number and email for contacting Angel's Rest from within the app have also been removed.  In order to ensure these were securely removed, previous commits have been stripped out of this project.
+In moving the project to a public repository, Parse, PayPal, and ConstantContact API keys were removed from the project.  All keys are located in Keys.h.  The phone number and email for contacting Angel's Rest from within the app have also been removed and switched to mock data.
+
+In order to ensure these elements were completely expunged, previous commits have been stripped out of this project.
