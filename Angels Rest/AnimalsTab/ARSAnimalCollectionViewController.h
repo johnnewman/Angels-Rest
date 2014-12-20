@@ -16,13 +16,13 @@
 
 #import <UIKit/UIKit.h>
 #import "ARSOptionsTableViewControllerDelegate.h"
+#import <WYPopoverController.h>
 
-@class FPPopoverController;
 @class MBProgressHUD;
 
-@interface ARSAnimalCollectionViewController : UICollectionViewController <NSFetchedResultsControllerDelegate, ARSOptionsTableViewControllerDelegate, UIAlertViewDelegate>
+@interface ARSAnimalCollectionViewController : UICollectionViewController <NSFetchedResultsControllerDelegate, ARSOptionsTableViewControllerDelegate, UIAlertViewDelegate, WYPopoverControllerDelegate>
 {
-    FPPopoverController *popoverController;
+    WYPopoverController *popoverController;
     NSFetchRequest *fetchRequest;
 }
 

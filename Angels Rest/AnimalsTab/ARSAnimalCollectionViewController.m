@@ -10,7 +10,6 @@
 #import "ARSAnimalCell.h"
 #import "Animal.h"
 #import "ARSAnimalDetailsViewController.h"
-#import "FPPopoverController.h"
 #import "ARSOptionsTableViewController.h"
 #import "AppDelegate.h"
 #import "MBProgressHUD.h"
@@ -22,7 +21,7 @@ static NSString * const AnimalCellIdentifier = @"AnimalCell";
 static NSString * const FooterViewIdentifier = @"FooterView";
 static NSString * const DetailsSegueIdentifier = @"ShowDetailsSegue";
 
-static CGSize const SortPopoverSize = {200.0f, 288.0f};
+static CGSize const SortPopoverSize = {200.0f, 264.0f};
 static NSString * const AvenirMediumName = @"Avenir-Medium";
 static CGFloat FontSize = 16.0f;
 
@@ -75,13 +74,14 @@ static CGFloat FontSize = 16.0f;
 {
     ARSOptionsTableViewController *optionsTableViewController = [[ARSOptionsTableViewController alloc] initWithStyle:UITableViewStylePlain];
     optionsTableViewController.title = @"Filter Options";
-    optionsTableViewController.tableView.scrollEnabled = NO;
     optionsTableViewController.delegate = self;
     
-    popoverController = [[FPPopoverController alloc] initWithViewController:optionsTableViewController delegate:nil];
-    popoverController.tint = FPPopoverDefaultTint;
-    popoverController.arrowDirection = FPPopoverArrowDirectionUp;
-    popoverController.contentSize = SortPopoverSize;
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:optionsTableViewController];
+    
+    popoverController = [[WYPopoverController alloc] initWithContentViewController:navController];
+    popoverController.delegate = self;
+    popoverController.popoverContentSize = SortPopoverSize;
+    popoverController.wantsDefaultContentAppearance = NO;
 }
 
 - (void)createRefreshControl
@@ -112,6 +112,14 @@ static CGFloat FontSize = 16.0f;
 }
 
 
+#pragma mark - WYPopover controller delegate
+
+- (BOOL)popoverControllerShouldDismissPopover:(WYPopoverController *)controller
+{
+    return YES;
+}
+
+
 #pragma mark - Actions
 
 - (void)refreshControlValueChanged:(UIRefreshControl *)control
@@ -121,7 +129,7 @@ static CGFloat FontSize = 16.0f;
 
 - (IBAction)optionsButtonSelected:(id)sender
 {
-    [popoverController presentPopoverFromPoint:CGPointMake(295, 54)];
+    [popoverController presentPopoverFromBarButtonItem:sender permittedArrowDirections:WYPopoverArrowDirectionUp animated:YES];
 }
 
 

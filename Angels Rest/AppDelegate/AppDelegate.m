@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import <Parse/Parse.h>
 #import <PayPalMobile.h>
+#import <WYPopoverController.h>
 
 @implementation AppDelegate
 
@@ -21,6 +22,9 @@
     //Set app-wide appearace
     [[UINavigationBar appearance] setTitleTextAttributes:@{NSFontAttributeName: [UIFont fontWithName:@"Avenir-Heavy" size:20]}];
     [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName: [UIFont fontWithName:@"Avenir-Heavy" size:10]} forState:UIControlStateNormal];
+    [WYPopoverController setDefaultTheme:[WYPopoverTheme theme]];
+    [[WYPopoverBackgroundView appearance] setBorderWidth:3.0f];
+    [[WYPopoverBackgroundView appearance] setOuterStrokeColor:[UIColor lightGrayColor]];
     
     
     //Parse and PayPal setup
