@@ -47,6 +47,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44582139265734F4B8DD12D6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		52029C8D1970D88A006F0136 /* ARSConstantContactSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARSConstantContactSessionManager.h; path = Networking/ConstantContact/RequestOperationManager/ARSConstantContactSessionManager.h; sourceTree = "<group>"; };
 		52029C8E1970D88A006F0136 /* ARSConstantContactSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARSConstantContactSessionManager.m; path = Networking/ConstantContact/RequestOperationManager/ARSConstantContactSessionManager.m; sourceTree = "<group>"; };
 		52029C911970D9B1006F0136 /* ARSConstantContactCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARSConstantContactCommunicator.h; path = Networking/ConstantContact/APICommunicator/ARSConstantContactCommunicator.h; sourceTree = "<group>"; };
@@ -113,7 +114,7 @@
 		52CEFB0F18C2617E007A786F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		52DF7360180A4AE000D505E2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		53FE524441A349B9852CC9CC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE8C7B949D0946E0ADD0651B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		623D0C6CC1D0FDC66532A447 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -342,7 +343,7 @@
 				527AA2871791C22000858F34 /* Angels Rest */,
 				527AA2801791C22000858F34 /* Frameworks */,
 				527AA27F1791C22000858F34 /* Products */,
-				BE8C7B949D0946E0ADD0651B /* Pods.xcconfig */,
+				80D4B76B5E00B3B72A2B786F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -438,6 +439,15 @@
 			name = JNImagePager;
 			sourceTree = "<group>";
 		};
+		80D4B76B5E00B3B72A2B786F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				623D0C6CC1D0FDC66532A447 /* Pods.debug.xcconfig */,
+				44582139265734F4B8DD12D6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -527,7 +537,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		594A2A15D23F4818BC70CDDE /* Check Pods Manifest.lock */ = {
@@ -659,7 +669,7 @@
 		};
 		527AA2A21791C22000858F34 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE8C7B949D0946E0ADD0651B /* Pods.xcconfig */;
+			baseConfigurationReference = 623D0C6CC1D0FDC66532A447 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -676,7 +686,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Angels Rest/SupportingFiles/Angels Rest-Prefix.pch";
 				INFOPLIST_FILE = "Angels Rest/SupportingFiles/Angels Rest-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -688,7 +698,7 @@
 		};
 		527AA2A31791C22000858F34 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE8C7B949D0946E0ADD0651B /* Pods.xcconfig */;
+			baseConfigurationReference = 44582139265734F4B8DD12D6 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -705,7 +715,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Angels Rest/SupportingFiles/Angels Rest-Prefix.pch";
 				INFOPLIST_FILE = "Angels Rest/SupportingFiles/Angels Rest-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
