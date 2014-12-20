@@ -10,6 +10,8 @@
 
 static NSString * const SortCellIdentifier = @"SortCell";
 
+#define CellHeight 44.0f
+
 @interface ARSOptionsTableViewController ()
 @end
 
@@ -81,6 +83,11 @@ static NSString * const SortCellIdentifier = @"SortCell";
             [_delegate optionsTableViewController:self selectedSortType:(int)indexPath.row];
         }
     }
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return CellHeight;
 }
 
 @end
