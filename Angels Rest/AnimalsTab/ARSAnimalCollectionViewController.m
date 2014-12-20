@@ -21,7 +21,7 @@ static NSString * const AnimalCellIdentifier = @"AnimalCell";
 static NSString * const FooterViewIdentifier = @"FooterView";
 static NSString * const DetailsSegueIdentifier = @"ShowDetailsSegue";
 
-static CGSize const SortPopoverSize = {200.0f, 264.0f};
+static CGSize const SortPopoverSize = {200.0f, 258.0f};
 static NSString * const AvenirMediumName = @"Avenir-Medium";
 static CGFloat FontSize = 16.0f;
 
