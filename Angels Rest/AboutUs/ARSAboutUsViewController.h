@@ -19,5 +19,6 @@
 @interface ARSAboutUsViewController : UIViewController <UIActionSheetDelegate, MFMailComposeViewControllerDelegate>
 
 @property (weak, nonatomic, readonly) IBOutlet UIButton *callButton;
+@property (weak, nonatomic, readonly) IBOutlet UITextView *infoTextView;
 
 @end

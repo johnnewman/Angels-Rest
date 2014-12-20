@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ck9-TI-pIg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ck9-TI-pIg">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
@@ -26,7 +25,7 @@
             </objects>
             <point key="canvasLocation" x="-292" y="192"/>
         </scene>
-        <!--Social View Controller - Angel's Rest Facebook-->
+        <!--Angel's Rest Facebook-->
         <scene sceneID="Ka0-mf-jUN">
             <objects>
                 <viewController id="A5F-0D-isi" customClass="ARSSocialViewController" sceneMemberID="viewController">
@@ -78,7 +77,7 @@
             </objects>
             <point key="canvasLocation" x="773" y="-130"/>
         </scene>
-        <!--Navigation Controller - Facebook-->
+        <!--Facebook-->
         <scene sceneID="wNB-EY-P5D">
             <objects>
                 <navigationController definesPresentationContext="YES" id="gkn-bs-Hdw" sceneMemberID="viewController">
@@ -94,7 +93,7 @@
             </objects>
             <point key="canvasLocation" x="304" y="-130"/>
         </scene>
-        <!--Donate View Controller - Donate-->
+        <!--Donate-->
         <scene sceneID="WR6-oZ-4F0">
             <objects>
                 <viewController id="G4u-gQ-81q" customClass="ARSDonateViewController" sceneMemberID="viewController">
@@ -126,7 +125,6 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oiB-YI-5P8">
                                 <rect key="frame" x="99" y="222" width="122" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="122" id="8Mo-1m-Vrr"/>
                                 </constraints>
@@ -140,7 +138,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ew8-T1-T7H">
                                 <rect key="frame" x="99" y="285" width="122" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="122" id="qlt-Zb-Umt"/>
                                 </constraints>
@@ -154,7 +151,6 @@
                             </button>
                             <imageView userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="angels_rest_banner" translatesAutoresizingMaskIntoConstraints="NO" id="uHD-Da-6X7">
                                 <rect key="frame" x="40" y="424" width="240" height="78"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="78" id="uu3-YV-Ncc"/>
                                 </constraints>
@@ -199,7 +195,7 @@
             </objects>
             <point key="canvasLocation" x="773" y="556"/>
         </scene>
-        <!--Stay Classy View Controller - StayClassy Donation-->
+        <!--StayClassy Donation-->
         <scene sceneID="daL-qQ-Q9S">
             <objects>
                 <viewController id="Nf1-uO-i4S" customClass="ARSStayClassyViewController" sceneMemberID="viewController">
@@ -242,7 +238,7 @@
             </objects>
             <point key="canvasLocation" x="1239" y="556"/>
         </scene>
-        <!--About Us View Controller - About Us-->
+        <!--About Us-->
         <scene sceneID="09P-Ll-fqN">
             <objects>
                 <viewController id="1Nd-to-A6E" customClass="ARSAboutUsViewController" sceneMemberID="viewController">
@@ -326,6 +322,7 @@ Or better yet, come and visit our facility:
                     <tabBarItem key="tabBarItem" title="About Us" image="question_mark" id="stt-yh-Bzg"/>
                     <connections>
                         <outlet property="callButton" destination="kXe-aT-HzG" id="SPP-cy-sm8"/>
+                        <outlet property="infoTextView" destination="rIZ-md-ies" id="hry-jH-Auj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vdf-rU-YYV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -333,7 +330,7 @@ Or better yet, come and visit our facility:
             </objects>
             <point key="canvasLocation" x="304" y="1268"/>
         </scene>
-        <!--Constant Contact Table View Controller - Subscribe-->
+        <!--Subscribe-->
         <scene sceneID="ILy-4M-Y3Q">
             <objects>
                 <tableViewController id="YRO-cL-jkK" customClass="ARSConstantContactTableViewController" sceneMemberID="viewController">
@@ -711,7 +708,7 @@ Or better yet, come and visit our facility:
             </objects>
             <point key="canvasLocation" x="1233" y="1268"/>
         </scene>
-        <!--State Picker Table View Controller - Select State-->
+        <!--Select State-->
         <scene sceneID="uGp-Es-oY8">
             <objects>
                 <tableViewController id="crF-4o-Di2" customClass="ARSStatePickerTableViewController" sceneMemberID="viewController">
@@ -764,7 +761,7 @@ Or better yet, come and visit our facility:
             </objects>
             <point key="canvasLocation" x="773" y="1268"/>
         </scene>
-        <!--Navigation Controller - Animals-->
+        <!--Animals-->
         <scene sceneID="zGm-lc-0be">
             <objects>
                 <navigationController definesPresentationContext="YES" id="C8q-LO-pap" sceneMemberID="viewController">
@@ -780,7 +777,7 @@ Or better yet, come and visit our facility:
             </objects>
             <point key="canvasLocation" x="304" y="-843"/>
         </scene>
-        <!--Animal Collection View Controller - Angel's Rest Animals-->
+        <!--Angel's Rest Animals-->
         <scene sceneID="z6D-53-Rdz">
             <objects>
                 <collectionViewController autoresizesArchivedViewToFullSize="NO" id="p7c-5M-8w7" customClass="ARSAnimalCollectionViewController" sceneMemberID="viewController">
@@ -814,7 +811,6 @@ Or better yet, come and visit our facility:
                                         </imageView>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="photo_outline" translatesAutoresizingMaskIntoConstraints="NO" id="GsT-Mn-QCl">
                                             <rect key="frame" x="20" y="6" width="110" height="110"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Animal Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="548-lL-rkF">
                                             <rect key="frame" x="10" y="119" width="130" height="21"/>
